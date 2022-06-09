@@ -26,7 +26,7 @@ jobs:
       - name: 💿 Remix Build
         run: npm run build
 
-      - name: 📂 Make deno and remix dir
+      - name: 📂 Make deno dir
         run: mkdir -p ./deno
       
       - name: 📝 Copy Remix build files into outut dir
