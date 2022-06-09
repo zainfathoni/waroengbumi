@@ -29,7 +29,7 @@ jobs:
       - name: 📂 Make deno dir
         run: mkdir -p ./deno
       
-      - name: 📝 Copy Remix build files into outut dir
+      - name: 📝 Copy Remix build files into the output dir
         run: cp -R ./{build,public} ./deno
 
       - name: 🚛 Deploy to Deno Deploy
